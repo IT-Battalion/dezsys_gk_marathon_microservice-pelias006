@@ -125,10 +125,17 @@ Zuerst habe ich mir die Dokumentation zum Account Service durchgelesen und dokum
 
 ## Quellen
 [1] "Microservices with Spring"; Spring; [Online](https://spring.io/blog/2015/07/14/microservices-with-spring); zuletzt besucht am 24.05.2022
+
 [2] "Part III. Spring Cloud Netflix"; Spring; [Online](https://cloud.spring.io/spring-cloud-static/Greenwich.SR1/multi/multi__spring_cloud_netflix.html); zuletzt besucht am 24.05.2022
+
 [3] "Cloud"; Spring; [Online](https://spring.io/cloud); zuletzt besucht am 24.05.2022
+
 [4] "Service Meshes in einer Mikrodienst-Architektur"; Google; [Online](https://cloud.google.com/architecture/service-meshes-in-microservices-architecture); zuletzt besucht am 24.05.2022
+
 [5] "The Istio service mesh"; Istio; [Online](https://istio.io/); zuletzt besucht am 24.05.2022
+
 [6] "A different kind of service mesh"; LINKERD; [Online](https://linkerd.io/); zuletzt besucht am 24.05.2022
+
 [7] "Istio vs linkerd"; StackShare"; [Online](https://stackshare.io/stackups/istio-vs-linkerd); zuletzt besucht am 24.05.2022
+
 [8] "Service Registration and Discovery"; Spring; [Online](https://spring.io/guides/gs/service-registration-and-discovery/); zuletzt besucht am 11.06.2022
