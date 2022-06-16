@@ -1,6 +1,7 @@
 package io.pivotal.microservices.marathon;
 
 import io.pivotal.microservices.exceptions.MarathonDataNotFoundException;
+import io.pivotal.microservices.marathon.model.TimingstationData;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -35,7 +36,7 @@ public class MarathonController {
     @RequestMapping("/marathon/{sectionParkID}")
     public List<TimingstationData> bySectionParkID(@PathVariable("sectionParkID") String sectionParkID) {
         logger.info("marathon-service bySectionParkID() invoked: " + sectionParkID);
-        List<TimingstationData> data = this.marathonRepository.findBySectionParkID(sectionParkID);
+        List<TimingstationData> data = this.marathonRepository.findBySectionID(sectionParkID);
         logger.info("marathon-service bySectionParkID() found: " + data);
 
         if (data == null || data.size() == 0) {

@@ -1,4 +1,4 @@
-package io.pivotal.microservices.marathon;
+package io.pivotal.microservices.marathon.model;
 
 import org.springframework.data.annotation.Id;
 

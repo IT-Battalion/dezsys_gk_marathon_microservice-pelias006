@@ -1,13 +1,16 @@
-package io.pivotal.microservices.marathon;
+package io.pivotal.microservices.marathon.model;
 
-import javax.persistence.Table;
+import io.pivotal.microservices.marathon.model.CompetitionData;
+import io.pivotal.microservices.marathon.model.WeatherData;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-@Table(name = "T_MARATHON")
+@Document(collection = "tdata")
 public class TimingstationData {
-    @javax.persistence.Id
-    private Long id;
+    @Id private String id;
     private String timingstationID;
     private String timestamp;
 
@@ -108,11 +111,11 @@ public class TimingstationData {
     }
 
 
-    public long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
